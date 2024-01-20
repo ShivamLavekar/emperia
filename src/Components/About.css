@@ -1,0 +1,26 @@
+.About{
+    background-color: #effafa;
+    padding-top: 50px;
+    
+}
+
+.rh{
+    line-height: 37px;
+    /* padding-right: 70px; */
+    text-align: justify;
+
+}
+
+.com1{
+    padding-top: 50px;
+    padding-left: 50px;
+    height: 400px;
+    width: 600px;
+}
+
+.com2{
+    z-index: 2;
+    height: 170px;
+}
+
+

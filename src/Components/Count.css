@@ -1,0 +1,20 @@
+
+.numbers {
+    /* display: flex; */
+    justify-content: space-around;
+    text-align: center;
+    /* background-color: white; */
+}
+
+.number .counter {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 6px 0;
+    color: rgba(0, 0, 0, 0.785);
+    font-weight: bold;
+}
+.number span {
+    font-size: 1.2em;
+    display: block;
+    color: #1dbfc1;
+}
