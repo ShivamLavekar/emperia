@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Count from "./Count";
 import About from "./About"
 import Slick from "./Slick";
@@ -13,12 +13,12 @@ export default function Home() {
           
           <div
             id="carouselExampleSlidesOnly"
-            class="carousel slide"
+            className="carousel slide"
             data-bs-ride="carousel"
           >
             
             <div className="carousel-inner">
-              <div class="carousel-item active">
+              <div className="carousel-item active">
                 <img
                   src="media/Homebg1.jpg"
                   className="d-block w-100 img-fluid"

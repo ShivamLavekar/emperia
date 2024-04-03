@@ -6,11 +6,11 @@ export default function Navbar() {
     <div className="container">
       <header>
         <div className="">
-          <nav class="navbar navbar-expand-xl navbar-light">
-            <div class="container-fluid">
-            <Link class="navbar-brand" to="/"><img src="media/logo.png" alt="" height={90} /></Link>
+          <nav className="navbar navbar-expand-xl navbar-light">
+            <div className="container-fluid">
+            <Link className="navbar-brand" to="/"><img src="media/logo.png" alt="" height={90} /></Link>
               <button
-                class="navbar-toggler"
+                className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
@@ -18,19 +18,19 @@ export default function Navbar() {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto">
-                  <li class="nav-item">
-                    <Link class="nav-link px-4" aria-current="page" to="/">
+              <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav m-auto">
+                  <li className="nav-item">
+                    <Link className="nav-link px-4" aria-current="page" to="/">
                       Home
                     </Link>
                   </li>
 
-                  <li class="nav-item dropdown">
+                  <li className="nav-item dropdown">
                     <Link
-                      class="nav-link px-4"
+                      className="nav-link px-4"
                       data-bs-toggle="dropdown"
                       to="Home/"
                       role="button"
@@ -38,99 +38,99 @@ export default function Navbar() {
                     >
                       About Us
                     </Link>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu">
                       <li>
-                        <Link class="dropdown-item" to="History">
+                        <Link className="dropdown-item" to="History">
                           History
                         </Link>
                       </li>
                       <li>
-                        <hr class="dropdown-divider m-0"></hr>
+                        <hr className="dropdown-divider m-0"></hr>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="">
+                        <Link className="dropdown-item" to="/">
                           Leadership
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <hr class="dropdown-divider m-0"></hr>
+                        <hr className="dropdown-divider m-0"></hr>
                       </li>
                       <li>
-                        <Link class="dropdown-item" to="CoreValues">
+                        <Link className="dropdown-item" to="CoreValues">
                           Core Values
                         </Link>
                       </li>
                       <li>
-                        <hr class="dropdown-divider m-0"></hr>
+                        <hr className="dropdown-divider m-0"></hr>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="">
+                        <Link className="dropdown-item" to="/">
                           Distribution
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
 
-                  <li class="nav-item dropdown">
+                  <li className="nav-item dropdown">
                     <Link
-                      class="nav-link dropdown-toggle px-4"
+                      className="nav-link dropdown-toggle px-4"
                       data-bs-toggle="dropdown"
-                      href="/"
+                      to="/"
                       role="button"
                       aria-expanded="false"
                     >
                       Product
                     </Link>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu">
                       <li>
-                        <Link class="dropdown-item" to="PersonalCare">
+                        <Link className="dropdown-item" to="PersonalCare">
                           Personal Care
                         </Link>
                       </li>
                       <li>
-                        <hr class="dropdown-divider m-0"></hr>
+                        <hr className="dropdown-divider m-0"></hr>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="">
+                        <Link className="dropdown-item" to="/">
                           Bathroom Care
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <hr class="dropdown-divider m-0"></hr>
+                        <hr className="dropdown-divider m-0"></hr>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="">
+                        <Link className="dropdown-item" to="/">
                           Floor & Surface Care
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <hr class="dropdown-divider m-0"></hr>
+                        <hr className="dropdown-divider m-0"></hr>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="">
+                        <Link className="dropdown-item" to="/">
                           General Care
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <hr class="dropdown-divider m-0"></hr>
+                        <hr className="dropdown-divider m-0"></hr>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="">
+                        <Link className="dropdown-item" to="/">
                           Kitchen Care
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
 
-                  <li class="nav-item" style={{ justifyContent: "around" }}>
-                    <Link class="nav-link px-4" to="Innovation&Technology">
+                  <li className="nav-item" style={{ justifyContent: "around" }}>
+                    <Link className="nav-link px-4" to="Innovation&Technology">
                       Innovation & Technology
                     </Link>
                   </li>
 
-                  <li class="nav-item dropdown">
+                  <li className="nav-item dropdown">
                     <Link
-                      class="nav-link dropdown-toggle ps-4"
+                      className="nav-link dropdown-toggle ps-4"
                       data-bs-toggle="dropdown"
                       to="/"
                       role="button"
@@ -138,43 +138,43 @@ export default function Navbar() {
                     >
                       Media
                     </Link>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="">
+                        <Link className="dropdown-item" to="/">
                           Facebook
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <hr class="dropdown- m-0"></hr>
+                        <hr className="dropdown- m-0"></hr>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="">
+                        <Link className="dropdown-item" to="/">
                           Instagram
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <hr class="dropdown-divider m-0"></hr>
+                        <hr className="dropdown-divider m-0"></hr>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="">
+                        <Link className="dropdown-item" to="/">
                           LinkedIn
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <hr class="dropdown-divider m-0"></hr>
+                        <hr className="dropdown-divider m-0"></hr>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="">
+                        <Link className="dropdown-item" to="/">
                           Twitter
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <hr class="dropdown-divider m-0"></hr>
+                        <hr className="dropdown-divider m-0"></hr>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="">
+                        <Link className="dropdown-item" to="/">
                           Youtube
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
@@ -186,7 +186,7 @@ export default function Navbar() {
                 Contact us
               </button>
             </Link>
-              <img src="media/bag.png" alt="" href />
+              <img src="media/bag.png" alt="" to=""/>
           </div>
             </div>
           </nav>

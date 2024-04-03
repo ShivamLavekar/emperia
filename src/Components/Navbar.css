@@ -5,11 +5,7 @@ header{
 }
 
 
-.btn{
-    /* border-radius: 10px; */
-    border: 2px solid;
-    color: #1dbfc1;
-}
+
 
 .btn:hover{
     background-color: #1dbfc1;

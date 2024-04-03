@@ -8,7 +8,7 @@ export default function Tech() {
           <img
             src="media/background.jpg"
             alt=""
-            className="image-fluid background"
+            className="img-fluid background"
           />
           <div className="d-flex card-img-overlay justify-content-center align-items-center">
           <span className="text-white fs-1">Smart Micellar Technology</span>
@@ -17,7 +17,7 @@ export default function Tech() {
         <div className="container info mt-3">
           <div className="row">
             <div className="col-md-6">
-              <img src="media/Micellar.png" alt="" className="image-fluid" />
+              <img src="media/Micellar.png" alt="" className="img-fluid" />
             </div>
             <div className="col-md-6">
               <p>

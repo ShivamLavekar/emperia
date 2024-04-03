@@ -11,7 +11,7 @@ export default class About extends Component {
 
             <img
                 src="media/GIF-1.gif"
-                alt=""
+                alt="img"
                 className="com2 position-absolute img-fluid"
 
               />
@@ -20,7 +20,7 @@ export default class About extends Component {
               <img
                 src="media/commercial.jpg"
                 className="com1 position-relative img-fluid"
-
+                alt="img"
               />
 
 

@@ -47,7 +47,7 @@ export default function Slick() {
                     <Slider {...settings}>
         
                         <div className=" position-relative effect w-auto mx-2">
-                            <img src="media/bt2.jpeg" className="m-auto position-relative img-fluid"/>
+                            <img src="media/bt2.jpeg" className="m-auto position-relative img-fluid" alt="img"/>
                             <div className="overlay">
                                 <div className="txt w-100">
                                     <p>Emperia 1900 Vol-1111 Toilet Cleaner 5 Liters</p>
@@ -57,7 +57,7 @@ export default function Slick() {
                             </div>
                         </div>
                         <div className=" position-relative effect  w-auto mx-2">
-                            <img src="media/bt2.jpeg" className=" w-100 position-relative img-fluid"/>
+                            <img src="media/bt2.jpeg" className=" w-100 position-relative img-fluid" alt="img"/>
                             <div className="overlay px-3">
                                 <div className="txt w-100">
                                     <p>Emperia 1900 Vol-1111 Toilet Cleaner 5 Liters</p>
@@ -67,7 +67,7 @@ export default function Slick() {
                             </div>
                         </div>
                         <div className=" position-relative effect  w-auto mx-2">
-                            <img src="media/bt2.jpeg" className=" w-100 position-relative img-fluid"/>
+                            <img src="media/bt2.jpeg" className=" w-100 position-relative img-fluid" alt="img"/>
                             <div className="overlay px-3">
                                 <div className="txt w-100">
                                     <p>Emperia 1900 Vol-1111 Toilet Cleaner 5 Liters</p>
@@ -77,7 +77,7 @@ export default function Slick() {
                             </div>
                         </div>
                         <div className=" position-relative effect  w-auto mx-2">
-                            <img src="media/bt2.jpeg" className=" w-100 position-relative img-fluid"/>
+                            <img src="media/bt2.jpeg" className=" w-100 position-relative img-fluid" alt="img"/>
                             <div className="overlay px-3">
                                 <div className="txt w-100">
                                     <p>Emperia 1900 Vol-1111 Toilet Cleaner 5 Liters</p>
@@ -87,7 +87,7 @@ export default function Slick() {
                             </div>
                         </div>
                         <div className=" position-relative effect  w-auto mx-2">
-                            <img src="media/bt2.jpeg" className=" w-100 position-relative img-fluid"/>
+                            <img src="media/bt2.jpeg" className=" w-100 position-relative img-fluid" alt="img"/>
                             <div className="overlay px-3">
                                 <div className="txt w-100">
                                     <p>Emperia 1900 Vol-1111 Toilet Cleaner 5 Liters</p>
@@ -97,8 +97,6 @@ export default function Slick() {
                             </div>
                         </div>
 
-                        
-                      
                     </Slider>
                 </div>
             </div>

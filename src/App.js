@@ -9,6 +9,7 @@ import History from './Components/About/History';
 import CoreValues from './Components/About/CoreValues';
 import Tech from './Components/Innovative & Tech/Tech'
 import Contact from './Components/Contact/Contact'
+import Personal from './Components/Product/Personal'
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Route path="CoreValues/" element={<CoreValues/>}/>
         <Route path="Contact/" element={<Contact/>}/>
         <Route path="Innovation&Technology/" element={<Tech/>}/>
-        {/* <Route path="PersonalCare/" element={<Personal/>}/> */}
+        <Route path="PersonalCare/" element={<Personal/>}/>
       </Routes>
       <Footer/>
     </Router>

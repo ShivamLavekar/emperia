@@ -5,6 +5,12 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.btn{
+    border-radius: 20px;
+    border: 2px solid;
+    color: #1dbfc1;
+}
+
 footer li a{
     text-decoration: none;
     color: black;
@@ -16,6 +22,10 @@ footer li{
 
 .bg-1900{
     background-color: #effafa;
+}
+
+.bg-19002{
+    background-color: #1dbfc1;
 }
 
 .ContactForm input,textarea{
